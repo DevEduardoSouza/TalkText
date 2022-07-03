@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+html, body{
+    background: #F3F5F7;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-size: 62.5%;
+}
+header{
+    width: 100%;
+    height: 250px;
+    background-image:linear-gradient(to left,#3EA1DB,#574AE8 );
+}
+header .conteudo_header{
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+}
+.text_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 400;
+    padding: 40px 0px;
+}
+form{
+    max-width: 900px;
+    position: relative;
+    padding: 30px 0px;
+}
+form .input_search_header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.205);
+    border: none;
+    border-radius:5px ;
+    outline: none;
+    padding: 0 70px;
+    font-size: 1.8rem;
+    color: white;
+
+}
+.input_search_header::placeholder{
+    color: white;
+    opacity: 50%;
+    font-size: 1.8rem;
+}
+.icone_search{
+    position: absolute;
+    top: 41%;
+    left: 3%;
+    cursor: pointer;
+}
+.icone_search:hover{
+   border: black ;
+}
+
+/* main */
+
+main{
+    max-width: 900px;
+    width:90%;
+    margin: auto;
+}
+
+main section{
+    max-width: 900px;
+    height: auto;
+    margin: 80px 0px;
+    background-color: white;
+    position: relative;
+}
+main section .conteudo_boxMain{
+    padding: 20px;
+}
+
+main section .conteudo_boxMain .data{
+   color: #717171;
+   font-size: 1.6rem;
+   font-weight: 400;
+}
+
+main section .conteudo_boxMain h2{
+   color: #1A202C;
+   font-size: 2.6rem;
+   font-weight: 400;
+   padding: 15px 0px ;
+}
+main section .conteudo_boxMain p{
+   color: #717171;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 3.2rem;
+   border-radius: 5px;
+}
+
+.conteudo_topBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media ( max-width:500px){
+    html, body{
+        font-size:52% ;
+    }
+    .text_header{
+        font-size: 2.0rem;
+    }
+}
+
+
