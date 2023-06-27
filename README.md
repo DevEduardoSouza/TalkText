@@ -1,9 +1,10 @@
 # Mini Blog - HTML e CSS
 
+Este repositório contém um mini blog criado com HTML e CSS, desenvolvido para treinar e aprimorar habilidades no front-end. O projeto não possui funcionalidades, apenas o design e a estrutura do front-end do blog.
+
 ![Imagem doMin blog](img/img_projeto.png)
 <a href="https://mini-blog-codelandia.netlify.app">Link</a>
 
-Este repositório contém um mini blog criado com HTML e CSS, desenvolvido para treinar e aprimorar habilidades no front-end. O projeto não possui funcionalidades, apenas o design e a estrutura do front-end do blog.
 
 ## Descrição
 
