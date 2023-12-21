@@ -101,10 +101,18 @@ main .card-news .content-card {
   padding: 2rem;
 }
 
-main .card-news .content-card .data {
+main .card-news .content-card .date {
   color: #717171;
   font-size: 1.6rem;
   font-weight: 400;
+}
+
+main .card-news .content-card  i{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+main .card-news .content-card .like i{
+   color: red;
 }
 
 main .card-news .content-card h2 {
